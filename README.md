@@ -2,7 +2,6 @@
 <h1>Yandex</h1>
 Yandex Маркет 
 <br>
-Yandex Путешествия
 
 <br>
 <hr>
@@ -16,12 +15,21 @@ Yandex Путешествия
 </ul>
 
 <hr>
-<h1>Get Start</h1>
+<h1>Get Start [front]</h1>
 <ol>
     <li>Install npm packet manager</li>
     <li>Run <b>"npm install"</b> on terminal</li>
     <li>Run <b>"npm start"</b> on terminal</li>
     <li>Open <b>"http://localhost:3000"</b> on browser</li>
+</ol>
+
+<hr>
+<h1>Get Start [back]</h1>
+<ol>
+    <li>Install pip packet manager</li>
+    <li>Run <b>"pip install -r requirements.txtl"</b> on terminal</li>
+    <li>Run <b>"py manage.py runserver"</b> on terminal</li>
+    <li>Open <b>"http://localhost:8000"</b> on browser</li>
 </ol>
 
 <hr>
