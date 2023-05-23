@@ -1,0 +1,64 @@
+
+
+.product-item {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    height: 250px;
+    box-shadow: inset -1px 0 0 0 #e8e8e8, inset 0 -1px 0 0 #e8e8e8, -1px -1px 0 0 #e8e8e8, -1px 0 0 0 #e8e8e8, 0 -1px 0 0 #e8e8e8;
+}
+
+.product-item > div:first-child {
+    width: 20%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-item > div:first-child img {
+    height: 80%;
+    width: auto;
+}
+
+.product-item > div:nth-child(2) {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-item > div:nth-child(2) .prd-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #33c;
+}
+.product-item > div:nth-child(2) .prd-name:hover { color: #f00; }
+.product-item > div:nth-child(2) .prd-desc {
+    font-size: 13px;
+    color: #2b2b2b;
+    line-height: 1.2rem;
+}
+.product-item > div:last-child button.to-busket-btn {
+    background-color: #DEDEDE;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-item > div:last-child button {
+    cursor: pointer;
+}
+.product-item > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-item > div:last-child button.to-fav-btn {
+    background-color: transparent;
+    border: none;
+}
+.product-item > div:last-child button.to-fav-btn img {
+    width: 25px;
+}

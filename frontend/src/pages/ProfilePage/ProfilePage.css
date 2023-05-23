@@ -1,0 +1,179 @@
+#profile-page {
+    position: relative;
+    min-height: 100vh;
+}
+
+#profile-page header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 1.5%;
+}
+
+#profile-page header span:first-child {
+    display: flex;
+    gap: 4px;
+}
+#profile-page header span:first-child img {
+    height: 32px;
+    width: auto;
+}
+#profile-page header span:last-child img {
+    width: 40px;
+}
+
+#profile-page section {
+    display: flex;
+    justify-content: space-between;
+}
+#profile-page section > aside {
+    box-sizing: border-box;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 25px;
+    gap: 5px;
+}
+#profile-page section > aside > span {
+    display: block;
+    height: 0.5px;
+    width: 40%;
+    margin: 12px 0;
+    margin-right: 10%;
+    background-color: #e6e9f0;
+}
+#profile-page section > aside .aside-buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    color: #9598AD;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#profile-page section > aside .aside-buttons:hover {
+    background-color: #edeef5;
+}
+#profile-page section > aside .aside-buttons img {
+    filter: invert(74%) sepia(6%) saturate(848%) hue-rotate(195deg) brightness(83%) contrast(84%);
+}
+#profile-page section > div {
+    width: 85%;
+    box-sizing: border-box;
+    padding-left: 23%;
+}
+#profile-page #profile-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 365px;
+    box-sizing: border-box;
+}
+#profile-page #profile-info > div.user-img {
+    display: flex;
+    gap: 20px;
+}
+#profile-page #profile-info > h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#profile-page #profile-info > div.user-img img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+#profile-page #profile-info > div.user-img > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    width: 170px;
+    line-height: 1.3rem;
+    gap: 10px;
+}
+#profile-page #profile-info > div.user-img   > span button {
+    height: 36px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+#profile-page #profile-info > input {
+    height: 44px;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0 15px;
+    outline: none;
+    margin: 50px 0 10px;
+}
+#profile-page #profile-info > p {
+    font-size: 13px;
+    color: #999;
+    line-height: 1.3rem;
+}
+#profile-page #profile-info > button {
+    background-color: #fc0;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#profile-page footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+}
+#profile-page footer a {
+    font-size: 13px;
+    color: #0044bb;
+    transition: .4s;
+}
+#profile-page footer a:hover {
+    color: #f00;
+}
+#profile-page footer a span {
+    color: #999;
+}
+
+
+#profile-page .info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+#profile-page .info-box p {
+    color: #999;
+    font-size: 12px;
+    margin-left: 15px;
+}
+#profile-page .info-box span {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    border-radius: 8px;
+    font-size: 20px;
+    /* padding: 0 10px; */
+    outline: none;
+    /* box-sizing: border-box; */
+}
+#profile-page .info-box span p {
+    font-size: inherit;
+    color: #000;
+}

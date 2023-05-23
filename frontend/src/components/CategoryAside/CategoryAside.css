@@ -1,0 +1,56 @@
+#category-aside {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ececec;
+    width: 20%;
+}
+#category-aside .aside--item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#category-aside .aside--item p {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 700;
+    margin: 20px 0 8px;
+}
+#category-aside .aside--item:first-child span {
+    display: flex;
+    gap: 10px;
+}
+#category-aside .aside--item:first-child span input {
+    height: 40px;
+    width: 108px;
+    color: #222;
+    border: 2px solid #c1c1c1;
+    border-radius: 5px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+}
+#category-aside .aside--item:first-child span input:focus {
+    border: 2px solid #FC0;
+}
+#category-aside .aside--item:not(:first-child) span {
+    display: flex;
+    gap: 5px;
+    
+}
+#category-aside input.radio,
+#category-aside input.checkbox {
+    width: 16px;
+
+}
+
+#category-aside > button {
+    background-color: #e8e8e8;
+    border: none;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 50%;
+}

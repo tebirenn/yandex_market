@@ -1,0 +1,37 @@
+
+
+#category-page section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 3%;
+}
+#category-page .category-name {
+    font-size: 32px;
+    font-weight: 500;
+}
+#category-page #main {
+    display: flex;
+    gap: 15px;
+}
+#category-page #main #filters {
+    display: flex;
+    gap: 20px;
+    padding: 30px 10px;
+}
+#category-page #main #filters button {
+    background-color: transparent;
+    border: none;
+    color: #04B;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+}
+#category-page #main #filters button:hover { color: #F00; }
+#category-page section #main aside {
+    width: 20%;
+    box-sizing: border-box;
+}
+#category-page section #main #products-list {
+    width: 80%;
+    box-sizing: border-box;
+}   

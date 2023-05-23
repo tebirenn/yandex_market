@@ -1,0 +1,98 @@
+
+
+#plus-main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 11%;
+    background-color: #f1f3f5;
+}
+
+#plus-main .main {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+#plus-main section {
+    background-image: url("../../images/universal-card.webp");
+    height: 510px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 56px;
+    box-sizing: border-box;
+    color: #fff;
+}
+#plus-main section div {
+    width: 40%;
+}
+#plus-main section div h1 {
+    font-size: 40px;
+}
+#plus-main section div p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+#plus-main section div button {
+    background: linear-gradient(90deg,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    width: 400px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#plus-main aside {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+.footer-aside-item {
+    background-color: #fff;
+    height: 102px;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-aside-item:first-child span:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+.footer-aside-item:first-child span:first-child img {
+    width: 32px;
+    height: 32px;
+}
+.footer-aside-item:first-child span:last-child {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.footer-aside-item:first-child span:last-child p,
+.footer-aside-item:last-child span:first-child p {
+    font-size: 13px;
+    color: #9e9b98;
+}
+.footer-aside-item:first-child span:last-child img {
+    width: 10px;
+    height: 10px;
+    transform: rotate(180deg);
+}
+
+.footer-aside-item:last-child span:last-child p {
+    font-size: 20px;
+}
+.footer-aside-item:last-child span:last-child {
+    display: flex;
+    gap: 5px;
+}

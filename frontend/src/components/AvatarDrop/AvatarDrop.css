@@ -1,0 +1,53 @@
+
+
+#avatar-drop {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 46px rgb(0 0 0 / 12%), 0 7px 15px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    box-sizing: border-box;
+    opacity: .5;
+    transition: .4s;
+}
+#avatar-drop span {
+    width: 308px;
+    display: flex;
+    gap: 15px;
+}
+#avatar-drop span {
+    padding: 16px 8px 16px 16px;
+    transition: .4s;
+    border-radius: 8px;
+}
+#avatar-drop span div:first-child {
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#avatar-drop span div:last-child {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #222;
+}
+#avatar-drop span#avatar-drop-user div:last-child { font-weight: 600; }
+#avatar-drop span:first-child img {
+    display: block;
+    width: 40px;
+}
+#avatar-drop span:hover {
+    background-color: #f2f2f2;
+}
+#avatar-drop span:not(:first-child) img {
+    display: block;
+    width: 20px;
+}
+#avatar-drop .exit-icon {
+    transform: rotate(180deg);
+}

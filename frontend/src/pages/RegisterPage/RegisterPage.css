@@ -1,0 +1,128 @@
+
+#reg-page {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+#reg-page #bg {
+    display: block;
+    width: 100vw;
+    position: fixed;
+    top: -8%;
+    z-index: -10;
+}
+
+#reg-page #form {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+    box-sizing: border-box;
+    padding: 32px;
+    position: relative;
+}
+#reg-page #form > img:first-child {
+    width: 60px;
+    margin: 0 auto;
+}
+#reg-page #form > p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+#reg-page #form .all-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#reg-page #form .all-inputs input {
+    height: 54px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 24px;
+}
+#reg-page #form .all-inputs input::placeholder {
+    font-size: 24px;
+    color: #b3b8cc;
+}
+#reg-page #form .all-inputs input:not([value=""]){
+    font-size: 24px;
+}
+#reg-page #form .all-inputs input:focus {
+    border: 1px solid #FFCC00;
+}
+#reg-page #form button.next-btn {
+    background-color: #FFCC00;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#reg-page #form a {
+    color: #0044BB;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#reg-page #form-after {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+#reg-page #form-after a {
+    color: #fff;
+    font-weight: 600;
+}
+#reg-page #form-after a:hover {
+    text-decoration: underline;
+}
+#reg-page #form .go-back-btn {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 12%);
+    border: none;
+    left: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#reg-page footer {
+    position: fixed;
+    padding-bottom: 30px;
+    width: 98%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#reg-page footer span {
+    display: flex;
+    gap: 20px;
+}
+#reg-page footer a, #reg-page footer p {
+    color: #fff;
+    font-size: 13px;
+    transition: .4s;
+}
+#reg-page footer a:hover {
+    color: #f00;
+}

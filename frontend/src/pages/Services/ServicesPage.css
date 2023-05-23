@@ -1,0 +1,42 @@
+
+#services-page header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 18%;
+    justify-content: flex-start;
+    gap: 50px;
+    border-bottom: 1px solid #e2e3e4;
+}
+
+#services-page header img {
+    width: 85px;
+}
+
+#services-links {
+    display: flex;
+    gap: 30px;
+}
+
+#services-links a {
+    text-decoration: none;
+}
+#services-links a:first-child {
+    color: #000;
+}
+#services-links a:not(:first-child) {
+    color: #2557A9;
+}
+
+#services-links a:not(:first-child):hover {
+    color: #FF0000;
+}
+
+.service-items-list {
+    padding: 50px 18%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

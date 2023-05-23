@@ -1,0 +1,122 @@
+
+#auth-page {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+#auth-page #bg {
+    display: block;
+    width: 100vw;
+    position: fixed;
+    top: -8%;
+    z-index: -10;
+}
+
+#auth-page #form {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+    box-sizing: border-box;
+    padding: 32px;
+    position: relative;
+}
+#auth-page #form > img:first-child {
+    width: 60px;
+    margin: 0 auto;
+}
+#auth-page #form > p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#auth-page #form input {
+    height: 54px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+#auth-page #form input::placeholder {
+    font-size: 24px;
+    color: #b3b8cc;
+}
+#auth-page #form input:not([value=""]){
+    font-size: 24px;
+}
+#auth-page #form input:focus {
+    border: 1px solid #FFCC00;
+}
+#auth-page #form button.login-btn,
+#auth-page #form button.reg-btn {
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#auth-page #form button.login-btn {
+    background-color: #FFCC00;
+}
+#auth-page #form button.reg-btn {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+} 
+#auth-page #form-after {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+#auth-page #form-after a {
+    color: #fff;
+    font-weight: 600;
+}
+#auth-page #form-after a:hover {
+    text-decoration: underline;
+}
+#auth-page #form .go-back-btn {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 12%);
+    border: none;
+    left: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#auth-page footer {
+    position: fixed;
+    padding-bottom: 30px;
+    width: 98%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#auth-page footer span {
+    display: flex;
+    gap: 20px;
+}
+#auth-page footer a, #auth-page footer p {
+    color: #fff;
+    font-size: 13px;
+    transition: .4s;
+}
+#auth-page footer a:hover {
+    color: #f00;
+}

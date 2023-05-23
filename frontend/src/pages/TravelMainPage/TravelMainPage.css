@@ -1,0 +1,555 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+.All{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.Header{
+    position: relative;
+}
+
+.HeaderLeftRight{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 92vw;
+}
+
+.HeaderTopBottom{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.Logo{
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    height: 30px;
+}
+
+.Logo1{
+    outline: none;
+    height: 30px;
+    width: 85px;
+}
+
+.Logo2{
+    height: 100%;
+    outline: none;
+    display: flex;
+}
+
+.LogoPicture{
+    color: #cedcff;
+    height: 30px;
+    position: relative;
+    width: 40px;
+}
+
+.LogoPictureInner{
+    height: 54px;
+    left: 50%;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 60px;
+}
+
+.Logo2Text{
+    height: 30px;
+    width: 158px;
+}
+
+.MenuBar{
+    flex-shrink: 0;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.MenuOptions{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.MenuOptions a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.MenuOptions span{
+    cursor: pointer;
+}
+
+.MenuOptions a:hover{
+    color: #e50f4f;
+    transition: color 0.15s;
+}
+
+.MenuOptions span:hover{
+    color: #e50f4f;
+    transition: color 0.15s;
+}
+
+.MenuOptions svg{
+    margin-right: 8px;
+}
+
+.Options{
+    display: flex;
+    margin-right: 20px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.PlusIcon{
+    display: flex;
+    align-items: center;
+}
+
+.AccountIcon{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.AccountIcon img{
+    border-radius: 50%;
+}
+
+.Main{
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.MainInner{
+    padding-top: 30px;
+}
+
+.Bar{
+    margin-left: -16px;
+}
+
+a.BarOption.Selected{
+    color: #e50f4f;
+    border-bottom: #e50f4f 2px solid;
+    cursor: auto;
+}
+
+.BarOption{
+    display: inline-flex;
+    letter-spacing: normal;
+    padding: 0 18px;
+    font-size: 18px;
+}
+
+.BarOption svg{
+    margin-right: 12px;
+}
+
+a.BarOption{
+    text-decoration: none;
+    color: black;
+}
+
+a.BarOption:hover{
+    text-decoration: none;
+    color: #e50f4f;
+    transition: color 0.15s;
+}
+
+.BarODiv{
+    padding: 12px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.SearchUpperText{
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.SearchBottomText{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.InfoInner{
+    margin-top: 92px;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92vw;
+}
+
+.InfoUpperText{
+    margin-bottom: 40px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.InfoUpperText h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.InfoContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.InfoBoxes{
+    flex: 0 0 260;
+    text-align: center;
+}
+
+.InfoBoxText{
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#Plus{
+    text-decoration: none;
+    color: #004ed8;
+}
+
+#Plus:hover{
+    color: #e50f4f;
+    transition: color 0.15s;
+}
+
+.CashBack{
+    border-radius: 8px;
+    font-size: 11px;
+    height: 16px;
+    line-height: 14px;
+    align-items: center;
+    background: linear-gradient(90deg,#ee7d38,#ec5d5d 25%,#b244ca 50%,#5d70e0 75%,#51b5e6);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    color: #fff;
+    display: inline-flex;
+    font-weight: 600;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+
+.Footer{
+    z-index: 100;
+}
+
+.FooterLeftRight{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 92vw;
+}
+
+.FooterTopBottom{
+    border-top: 1px solid #f1f0ed;
+    padding: 20px 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainInfo{
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MainInfoBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.InfoHeaders{
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.InfoTexts{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.InfoTexts a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.InfoTexts a:hover{
+    color: #e50f4f;
+    transition: color 0.15s;
+}
+
+.CopyrightInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Copyright{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.WasDone{
+    display: flex;
+}
+
+.WasDoneInner{
+    margin-top: -4px;
+    display: flex;
+    align-items: center;
+}
+
+.Yandex{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.Yandex a{
+    text-decoration: none;
+    color: black;
+}
+
+.Yandex a:hover{
+    transition: color 0.15s;
+    color: #e50f4f;
+}
+
+.FontWeight{
+    font-weight: 900;
+}
+
+.CashBackText{
+    white-space: nowrap;
+    position: relative;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MarginBottom{
+    margin-bottom: 12px;
+}
+
+.MarginBottom2{
+    margin-bottom: 28px;
+}
+
+.MarginTop{
+    margin-top: 12px;
+}
+
+.MarginRight{
+    margin-right: 8px;
+}
+
+.ProjectOfCompany{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.InfoButton{
+    border: none;
+    background-color: transparent;
+    vertical-align: text-bottom;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+select option{
+    color: black;
+}
+
+select {
+    /*width: 100%;*/
+    background-color: #fff;
+    border: 1px solid #777;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    color: #666;
+}
+
+select:focus{
+    box-shadow: inset 0 0 0 2px #666;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.InputForm{
+    border-radius: 8px;
+    margin-right: 0;
+    background-color: #ffe356;
+    display: flex;
+    font-size: 18px;
+    position: relative;
+    width: 92vw;
+    padding: 2px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.FirstSecLabels{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    height: 56px;
+    box-sizing: border-box;
+}
+.FirstLabelInput {
+    height: 56px;
+    width: 100%;
+}
+
+.FirstLabel{
+    border-radius: 8px 0 0 8px;
+    box-shadow: inset 0 2px 0 0 #ffe356,inset 0 -2px 0 0 #ffe356,inset 2px 0 0 0 #ffe356,inset -1px 0 0 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    font-size: 18px;
+    height: 64px;
+    padding: 0 16px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.FifthLabelInput{
+    border: none;
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+}
+
+.FirstLabel:focus{
+    box-shadow: inset 0 0 0 2px #666;
+}
+
+.TravelInput {
+    display: flex;
+    width: 92vw;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 8px;
+    height: 60px;
+    background-color: #FFE356;
+}
+
+.TravelInput input,
+.TravelInput select,
+.TravelInput > div {
+    height: 100%;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+.TravelInput .FirstInput {
+    width: 23%;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #d7d7d7;
+    color: #666;
+}
+.TravelInput .SecondInput {
+    width: 24%;
+    padding: 0 10px;
+    border-right: 1px solid #d7d7d7;
+}
+
+.TravelInput input {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.TravelInput .ThirdInput {
+    width: 14%;
+    display: flex;
+    position: relative;
+    border-right: 1px solid #d7d7d7;
+}
+.TravelInput .ThirdInput input {
+    width: 100%;
+}
+.TravelInput .ThirdInput svg {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.TravelInput .FourthInput {
+    width: 13%;
+    border-right: 1px solid #d7d7d7;
+    padding: 0 16px;
+}
+
+.TravelInput .FifthInput {
+    border-radius: 0 5px 5px 0;
+    width: 13%;
+    padding: 0 16px;
+}
+
+.TravelInput > button {
+    width: 13%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
